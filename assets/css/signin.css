@@ -1,0 +1,214 @@
+/*.signin-page-background{
+    background: url("../../assets/images/signup-user-back.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}*/
+
+.channel-i-button {
+  color: #ffffff;
+  background-color: #4F4464;
+  border-color: #4F4464;
+}
+
+.channel-i-button:hover,
+.channel-i-button:focus,
+.channel-i-button:active,
+.channel-i-button.active,
+.open .dropdown-toggle.channel-i-button {
+  color: #ffffff;
+  background-color: #4F4464;
+  border-color: #4F4464;
+}
+
+.channel-i-button:active,
+.channel-i-button.active,
+.open .dropdown-toggle.channel-i-button {
+  background-image: none;
+}
+
+.channel-i-button.disabled,
+.channel-i-button[disabled],
+fieldset[disabled] .channel-i-button,
+.channel-i-button.disabled:hover,
+.channel-i-button[disabled]:hover,
+fieldset[disabled] .channel-i-button:hover,
+.channel-i-button.disabled:focus,
+.channel-i-button[disabled]:focus,
+fieldset[disabled] .channel-i-button:focus,
+.channel-i-button.disabled:active,
+.channel-i-button[disabled]:active,
+fieldset[disabled] .channel-i-button:active,
+.channel-i-button.disabled.active,
+.channel-i-button[disabled].active,
+fieldset[disabled] .channel-i-button.active {
+  background-color: #4F4464;
+  border-color: #4F4464;
+}
+
+.channel-i-button .badge {
+  color: #4F4464;
+  background-color: #ffffff;
+}
+
+.centerOfEverything{
+    padding-top: 10rem;
+}
+.roundCornerBorder{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; /* future proofing */
+    -khtml-border-radius: 5px; /* for old Konqueror browsers */
+}
+.signUpPageLogo{
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    width: 150px;
+}
+.content-container-signup{
+    margin-top:6%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(255,255,255,0);
+}
+.content-container-signup h5{
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    width: 100%;
+    color: #ffffff;
+    font-size:20px !important;
+}
+input, select, textarea {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border-collapse: collapse !important;
+    background-image: none !important;
+    font-size: 13px !important;
+    border-color: rgba(0, 0, 0, 0.1) !important;
+    outline: 0 none !important;
+}
+.submit-btn-full-width{
+    width: 100%;
+    height: 40px;
+    line-height: 28px;
+}
+.main-celb-back{
+    height: 80%;
+    position: fixed;
+    bottom: 0;
+    right: 10%;
+}
+.partner-logos{
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    width: 60%;
+}
+.go-sign-in-container{
+    text-align: center;
+    font-size: 14px !important;
+    color: #646772;
+}
+.red-link{
+    color: #ED1F26;
+}
+.red-link:hover{
+    color: #ED1F26;
+    text-decoration: none;
+}
+.signup-bottom-links{
+    padding-top: 10px;
+}
+.signin-bottom-nav-link{
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    float: left;
+}
+.signin-bottom-nav-link:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.signin-bottom-copy{
+    width: 100%;
+    text-align: center;
+    color: #d0d0d0;
+    float: left;
+    font-size: 13px !important;
+    margin-top: -5px;
+}
+
+.no-padding-up-down{
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.forgot-password-signup{
+    margin-right: -15px;
+}
+
+.signup-retailer-container{
+    display: none;
+}
+.signup-user-container{
+    display: none;
+}
+.signin-user-container{
+    display: block;
+}
+.signin-user-forgot-password-container{
+    display: none;
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+    .main-celb-back{
+        display: block;
+        margin: auto;
+        width: 80%;
+        position: relative;
+        bottom: 0;
+        right: auto;
+    }
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+    .main-celb-back{
+        display: block;
+        margin: auto;
+        width: 104%;
+        position: relative;
+        bottom: 0;
+        right: auto;
+    }
+}
+
+/* Portrait */
+@media only screen
+  and (min-device-width: 768px)
+  and (max-device-width: 1024px)
+  and (orientation: portrait)
+  and (-webkit-min-device-pixel-ratio: 1) {
+    .main-celb-back{
+        display: block;
+        margin: auto;
+        width: 90%;
+        position: relative;
+        bottom: 0;
+        right: auto;
+    }
+}
